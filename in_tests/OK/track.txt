@@ -1,0 +1,35 @@
+| Test             | Statut    | Raison                        |
+| ---------------- | --------- | ----------------------------- |
+| **alloc.c**      | ❌ Échec   | Erreur syntaxique à **5:9**   |1
+| **arg.c**        | ✔️ Réussi | OK                            |0
+| **binary.c**     | ✔️ Réussi | OK                            |0
+| **blocks.c**     | ❌ Échec   | Erreur syntaxique à **15:15** |0
+| **boucle.c**     | ✔️ Réussi | OK                            |0
+| **constants.c**  | ❌ Échec   | Erreur syntaxique à **21:11** |0
+| **do.c**         | ✔️ Réussi | OK                            |0
+| **for.c**        | ✔️ Réussi | OK                            |0
+| **if.c**         | ✔️ Réussi | OK                            |0
+| **min.c**        | ✔️ Réussi | OK                            |0
+| **nested.c**     | ✔️ Réussi | OK                            |0
+| **return.c**     | ❌ Échec   | Erreur syntaxique à **1:30**  |0
+| **simple.c**     | ✔️ Réussi | OK                            |0
+| **strcmp.c**     | ✔️ Réussi | OK                            |0
+| **strcpy.c**     | ✔️ Réussi | OK                            |0
+| **tab2d.c**      | ✔️ Réussi | OK                            |0
+| **tp6.c**        | ✔️ Réussi | OK                            |0
+| **tri.c**        | ✔️ Réussi | OK                            |0
+| **type_check.c** | ❌ Échec   | Erreur syntaxique à **6:23**  |1
+
+
+
+
+KO :
+KO/both_func_var.c
+KO/float_conv.c
+KO/return_type.c
+KO/scope_func.c 
+KO/string.c
+KO/type_cast.c
+KO/type_write.c 
+
+//apres changement KO ++ type_sizeof.c ++ type_return.c ++ pointer_arith.c
